@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Alert and Images Task</title>
+</head>
+<body>
+<!-- Problem 1 -->
+    <a href="#" onclick="alert('You clicked the link!')">Click Here</a>
+
+    <!-- Problem 2 -->
+    <H2>Mobile Images</H2>
+<img src="image 1..jpg" alt="Mobile Phone 1 " onclick="clickhere()">
+<img src="image 2..jpg" alt="Mobile Phone 2" onclick="clickhere()">
+<img src="image 3..jfif" alt="Mobile Phone 3" onclick="clickhere()">
+<img src="image 4.jpg" alt="Mobile Phone 3" onclick="clickhere()">
+
+
+ <!-- problem 3 -->
+  <h2>Students Record</h2>
+  <h3>Before Delete</h3>
+
+  <table border="1" cellpadding=" 10">
+
+    <tr>
+        <th>Idex</th>
+        <th>Name</th>
+        <th>Class</th>
+    </tr>
+
+    <tr>
+        <td>0</td>
+        <td>Jhone 10</td>
+        <td><button onclick="del()">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Doe 9</td>
+        <td><button onclick="del()"class="deleteBtn">Delete</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mark 10</td>
+        <td><button onclick="del()" class="deleteBtn">Delete</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>James 8</td>
+        <td><button onclick="del()" class="deleteBtn">Delete</button></td>
+    </tr>
+  </table>
+
+  <!-- problem 4 -->
+   <img id="photo"
+         src="day image.jfif"
+         width="100"
+         onmouseover="showBefore()"
+         onmouseout="showAfter()">
+    
+
+ <!-- Problem 5 -->
+     <h2 id="counter">0</h2>
+     <button onclick="increase()">Increase</button>
+     <button onclick="decrease()">Decrease</button>
+     
+
+</body>
+</html>
+
+   <script src="app.js"></script>
+</body>
+</html>
